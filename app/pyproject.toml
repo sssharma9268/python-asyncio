@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["sssharma9268 <sssharma9268@gmail.com>"]
 readme = "README.md"
-packages = [{include = "app", from = "src"}]
+packages = [{include = "app", from = "src"}, {include = "asyncio", from = "src"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
